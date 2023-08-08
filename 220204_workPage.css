@@ -734,7 +734,7 @@ section[class*="pageDisplay"] .workBg_btn_item a{
         justify-content: center;
         align-items: flex-end;
     }
-    section[class*="pageDisplay"] .workBg_btn_item{
+    section[class*="pageDisplay"] .workBg_btn_group .workBg_btn_item:first-child{
         margin-top: 40px;
     }
     .container.sec_jamigoWorkPage_visualDisplay .workBg_content{
@@ -994,5 +994,8 @@ section[class*="pageDisplay"] .workBg_btn_item a{
     }
     .sec_jamigoWorkPage_workContent .workBg_detail_pc{
         max-width: 450px;
+    }
+    .sec_jamigoWorkPage_workContent .workSystem_detail{
+        max-width: 1000px;
     }
 }
